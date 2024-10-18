@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  .img-header{
+    width: 180px;
+    height: 50px;
+  }
+  .head{
+   display: flex;
+   text-align: center;
+   justify-items: center;
+   
+  }
+  #header{
+    display: flex;
+    justify-items: center;
+  }
+  body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+  }
+  
+  header, nav {
+    display: flex;
+    justify-content: center; /* Centra el contenido dentro de header y nav */
+    width: 100%; /* Asegura que ocupen el 100% del ancho */
+  }
+  #img-main{
+max-width: 700px;
+
+  }
+  
+  .narvar {
+    margin-top: 20px; /* Espacio entre header y navbar, ajusta según necesites */
+  }
+  
+  .direcciones {
+    display: flex;
+    gap: 20px; /* Espacio entre los enlaces, ajusta según necesites */
+  }
+  .titulo-index{
+    display: flex;
+    justify-content: center;
+  }
+  .card-container {
+    padding: 20px;
+    display: flex;              /* Hace del contenedor un flexbox */
+    flex-direction: row;       /* Asegura que los hijos estén en fila */
+    justify-content: center;    /* Centra las tarjetas horizontalmente */
+    gap: 20px;                 /* Espacio entre las tarjetas, ajusta según necesites */
+    flex-wrap: wrap;           /* Permite que las tarjetas se muevan a la siguiente fila si no hay suficiente espacio */
+}
+
+.Card {
+    background-color: #f9f9f9; /* Color de fondo para las tarjetas */
+    border: 1px solid #ccc;    /* Borde para las tarjetas */
+    border-radius: 8px;        /* Esquinas redondeadas */
+    padding: 20px;             /* Espaciado interno */
+    width: 200px;              /* Ancho fijo para las tarjetas, ajusta según necesites */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para un efecto de elevación */
+}
